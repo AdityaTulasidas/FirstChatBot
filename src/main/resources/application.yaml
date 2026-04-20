@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: chat-bot
+  ai:
+    google:
+      genai:
+        api-key: AIzaSyBfV7t99W0K_ps5GOaM10tXuyJNi0lMooQ
+        chat:
+          options:
+            model: models/gemini-1.5-pro
+
+
+server:
+  port: 8090
